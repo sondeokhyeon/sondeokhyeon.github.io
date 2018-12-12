@@ -1,6 +1,8 @@
 # blog
-Material theme based on Materialize.css for jekyll sites https://shawnteoh.github.io/matjek
+Material theme based on Materialize.css for jekyll sites https://shawnteoh.github.io/matjek   
+
 ---
+
 ## 개인공부(Today I Learned)   
 <a href="https://sondeokhyeon.github.io/blog">blog</a>   
 ---
