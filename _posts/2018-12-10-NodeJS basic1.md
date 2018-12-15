@@ -10,8 +10,12 @@ tags: [NodeJs,JavaScript,기초,입문]
 즉 웹브라우저에서 동작하던 자바스크립트로 서버 개발 할수 있게 만드는 플랫폼이다.  
 (일렉트론을 쓰면 응용소프트웨어도 만들수 있다 os도 안타는..)  
 특징으로는 단일 스레드, 뛰어난 확장성, 비동기 I/O 등이있다.  
-기본적으로 노드를 사용하기 위해서는 노드를 설치를 해줘야 하며 npm도 설치해줘야 한다   
-(참고 : npm은 node package manager의 약자)  
+기본적으로 노드를 사용하기 위해서는 노드를 설치를 해줘야 하며 npm도 설치해줘야 한다  
+(npm은 node package manager의 약자)  
+<a href="https://nodejs.org/en/">공식 홈페이지</a>에서 다운로드 가능하다 
+버전은 LTS버전(안정화버전)과 최신버전이 있다   
+용도에 맞춰 다운로드 후 설치하는데 설치도중 설치 옵션 중 Add To Path를 체크 후 설치하도록 하자   
+(리눅스는 설치방법이 다르다 <a href="https://nodejs.org/en/download/package-manager/">참고</a>)  
 os에 맞춰서 설치가 완료되면 terminal 혹은 cmd에 node 를 쳐보자 오류가 없다면 정상적으로 설치완료!
 
 ### node 주요 기본모듈
