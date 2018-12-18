@@ -2,7 +2,7 @@
 layout: post
 title : NodeJS 기초2
 categories: NodeJS
-tags: [NodeJs,JavaScript,기초,입문]
+tags: [NodeJs,JavaScript]
 ---
 **process - 어플리케이션 실행정보 객체**
 

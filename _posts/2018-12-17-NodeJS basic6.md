@@ -2,7 +2,7 @@
 layout: post
 title : NodeJS 기초6
 categories: NodeJS
-tags: [NodeJs,JavaScript,기초,입문]
+tags: [NodeJs,JavaScript]
 ---
 
 최신에 Node의 문법은 ECMA6로 작성한다   

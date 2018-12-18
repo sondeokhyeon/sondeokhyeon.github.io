@@ -2,7 +2,7 @@
 layout: post
 title : NodeJS 기초1
 categories: NodeJS
-tags: [NodeJs,JavaScript,기초,입문]
+tags: [NodeJs,JavaScript]
 ---
 *NodeJS란?*
 
