@@ -24,7 +24,7 @@ Read(읽기), Evaluate(평가), Print(출력), Loop(반복)
 
 **이벤트 루프**
 
-이벤트 루프란? 태스크 큐에 등록되어 있는 이벤트를 호출스택으로 이동 시켜주는 기능을 한다
+태스크 큐에 등록되어 있는 이벤트를 호출스택으로 이동 시켜주는 기능?이다 
 
 **호출 스택(콜스택)** 
 
@@ -43,12 +43,9 @@ Read(읽기), Evaluate(평가), Print(출력), Loop(반복)
 
 **태스트 큐**
 
-특별한 이벤트   
-ex setTimeout, setInterval, setImmediate,
-Promise, resolve, reject, async, await, 이벤트 리스너의 콜백 등과 같은 특별한 이벤트가 등록된다. 
-
-
-
-
+특별한 이벤트    
+ex   
+setTimeout, setInterval, setImmediate,Promise, resolve, reject, async, await, 이벤트 리스너 콜백 등과 같은 특별한 이벤트가 태스크 큐에 등록된다.   
+태스크큐는 하나만 있는것이 아니라 내부적으로 여러개가 존재하며 각각 다른 이벤트들이 저장된다. 
 
 
