@@ -16,6 +16,24 @@ tags: [NodeJs,JavaScript]
 
 그래서 es6에 도입된 문법이 있는데 그것이 바로 promise이다   
 
+<!--- 
+
+[//]: #  (ECMA2017에 추가된 문법이다.)    
+[//]: #  (async는 프로미스 기반이며 프로미스 가독성을 좋아진 느낌이다.)    
+[//]: #  (await는 async가 붙어진 내부에서만 사용 가능하다)   
+[//]: #  (async func<> => { )    
+[//]: #  (try {)    
+[//]: #  (const user = await Users.findOne<'zero'>;)    
+[//]: #  (const updateUser = await Users.update<'zero', 'nero'>)    
+[//]: #  (const removeUser = await Users.remove<'zero', 'nero'>)    
+[//]: #  (console.log<'다 찾았니'>)    
+[//]: #  (} catch <err> { )    
+[//]: #  (console.err<err>)    
+[//]: #  (})    
+[//]: #  (})    
+
+-->
+
 [//]: <> (비동기 작업 IF + catch )
 
     const condition = true;
@@ -40,22 +58,6 @@ tags: [NodeJs,JavaScript]
             console.error(error) 
             // 실패(reject)
         });
-        
-<!--- 
 
-[//]: <>  (ECMA2017에 추가된 문법이다.)    
-[//]: <>  (async는 프로미스 기반이며 프로미스 가독성을 좋아진 느낌이다.)    
-[//]: <>  (await는 async가 붙어진 내부에서만 사용 가능하다)   
-[//]: <>  (async func<> => { )    
-[//]: <>  (try {)    
-[//]: <>  (const user = await Users.findOne<'zero'>;)    
-[//]: <>  (const updateUser = await Users.update<'zero', 'nero'>)    
-[//]: <>  (const removeUser = await Users.remove<'zero', 'nero'>)    
-[//]: <>  (console.log<'다 찾았니'>)    
-[//]: <>  (} catch <err> { )    
-[//]: <>  (console.err<err>)    
-[//]: <>  (})    
-[//]: <>  (})    
 
--->
 콜백이 계속 되며 깊어지는 문법에 비해서 promise는 가독성이 훨신 더 좋아진걸 알수 있다.
