@@ -4,7 +4,8 @@ title : NodeJS 기초1
 categories: NodeJS
 tags: [NodeJs,JavaScript]
 ---
-*NodeJS란?*
+
+**NodeJS란?**   
 
 자바스크립트 엔진을 기반으로 만들어진 서버 사이드 플랫폼이다!    
 즉 웹브라우저에서 동작하던 자바스크립트로 서버 개발 할수 있게 만드는 플랫폼이다.   

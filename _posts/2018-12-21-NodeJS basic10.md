@@ -5,7 +5,7 @@ categories: NodeJS
 tags: [NodeJs,JavaScript]
 ---
 
-**require / module**
+**require / module**   
 
 require 문법은 다른 JS파일에 자원을 가져올때 사용하는 문법이다  
 다른 라이브러리에서 가져올때는 require를 썼었지만 직접 module로서 내보내려면 

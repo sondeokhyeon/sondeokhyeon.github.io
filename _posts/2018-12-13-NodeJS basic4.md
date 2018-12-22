@@ -6,6 +6,7 @@ tags: [NodeJs,JavaScript]
 ---
 
 **path**   
+
 경로 다루는 모듈   
 경로 정규화   
 경로 생성   
@@ -135,7 +136,7 @@ fs 모듈의 특징
 
 파일 다루기   
 - 파일 디스크립터 (파일 디스크립터란 시스템으로부터 할당받은 파일 또는 소켓에 부여된 정수를 의미한다)   
- <a href="https://m.blog.naver.com/PostView.nhn?blogId=yurhyur1&logNo=50122605420&proxyReferer=https%3A%2F%2Fwww.google.com%2F">참고 블로그</a>
+ >https://m.blog.naver.com/PostView.nhn?blogId=yurhyur1&logNo=50122605420
 
  - 파일 경로로 파일 다루기   
     -  파일 종류  

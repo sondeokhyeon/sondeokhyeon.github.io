@@ -5,6 +5,8 @@ categories: NodeJS
 tags: [NodeJs,JavaScript]
 ---
 
+**ECMA**   
+
 최신에 Node의 문법은 ECMA6로 작성한다   
 ECMA6는 지원하지 않는 브라우저(ie8은 ES3 스펙 이라고 하며 ie9는 es5 스펙이라고 한다)도 있기 때문에 프론트 개발 할때는 신경(트랜스파일러를 쓰던가... 최신 브라우저만 쓰게 하던가...)써야 한다
 
