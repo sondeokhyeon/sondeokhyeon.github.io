@@ -6,7 +6,7 @@ tags: [NodeJs,JavaScript]
 comments : true
 ---
 
-**Global 객체**
+**Global 객체**   
   
 브라우저 쓰이는 JavaScript에서는 전역 객체는 window이다.    
 하지만 Node.js 에서는 window를 쳐보면 나오지가 않는데   
@@ -40,10 +40,9 @@ require를 통해서 변수에 담아 사용한다
 
 <!--- 
 
-[//]: #  (path.relative<'c:\\temp', 'c:\\'>   // 상대경로 추적)   
-[//]: #  (path.join<__dirname, '..', '..'>    // 경로합치는 함수(절대경로 인식안됨)   
-[//]: #  (      path.resolve<__dirname, '..', '..'> // 경로합치는 함수(절대경로 인식됨)   
+[//]: #  (path.relative<'c:\\temp', 'c:\\'>   상대경로 추적)   
+[//]: #  (path.join<__dirname, '..', '..'>    경로합치는 함수(절대경로 인식안됨)   
+[//]: #  (      path.resolve<__dirname, '..', '..'> 경로합치는 함수(절대경로 인식됨)   
 [//]: #  ( <중간에 /이 있으면 최상위로 인식>)   
         
 -->
-
