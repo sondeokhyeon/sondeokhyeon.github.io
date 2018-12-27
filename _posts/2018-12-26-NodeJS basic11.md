@@ -6,7 +6,7 @@ tags: [NodeJs,JavaScript]
 comments : true
 ---
 
-**Global 객체**   
+**Global객체**
   
 브라우저 쓰이는 JavaScript에서는 전역 객체는 window이다.    
 하지만 Node.js 에서는 window를 쳐보면 나오지가 않는데   

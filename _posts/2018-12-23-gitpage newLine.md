@@ -18,9 +18,26 @@ tags: [기타]
 ~~(이 것 때문에 고생 좀 해서 작성한다... 같은 문제로 고생 하시는 분들이 계시다면 도움이 되길...)~~  
 이 방법은 VSCode를 사용을 기준으로 작성한다. ~~(굉장히 간단해서 작성하기 민망하다)~~
 
-<img width="400" height="600" src="/blog/images/20181223gitpage/1.png"/>
--  CRLF를 부분을 클릭한다 (윈도우에서)
+<img width="400" height="600" src="/blog/images/20181223gitpage/1.png"/>   
+-  CRLF를 부분을 클릭한다 (윈도우에서)   
 
-<img width="400" height="600" src="/blog/images/20181223gitpage/2.png"/>
+<img width="400" height="600" src="/blog/images/20181223gitpage/2.png"/>   
 -  LF를 누른 후 파일을 새롭게 저장한다
 -  commit/push 후 page에서 확인해보자!
+
+-- 내용 추가 --
+
+CRLF로 작성한 후 LF으로 변경하면 잘 안되는 경우도 있다는 걸 확인되었다...
+애초에 VSCODE에 설정을 변경하면 위에 작업을 안해도 되니 처음부터 변경해서 작성하도록 하자
+
+변경 방법 
+
+1. VSCODE 실행 후 F1을 눌러서 설정 창을 띄운다.
+
+2. 그 후 바로 엔터를 누르면 기본설정 : 설정열기 (Preference : Open Settings)이 열리게 된다
+
+3. 다시 검색할 수 있는 설정창이 나오는데 'Files:Eol' 이라고 검색한다.
+
+4. 설정값을 \n 으로 바꾼다 
+
+5. VSCODE 재실행한다 
