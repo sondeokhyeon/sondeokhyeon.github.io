@@ -2,6 +2,24 @@
 <html>
 
 <head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KFX6WNJ');
+  </script>
+  <!-- End Google Tag Manager -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
@@ -36,6 +54,10 @@
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFX6WNJ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header>
     <nav class="top-nav teal">
       <div class="nav-wrapper">
@@ -53,7 +75,8 @@
       <li>
         <div class="userView">
           <div class="background"></div>
-          <a href="{{site.github_profile}}" target="_blank"><img class="circle z-depth-2" src="{{site.baseurl}}/assets/res/user.png"></a>
+          <a href="{{site.github_profile}}" target="_blank"><img class="circle z-depth-2"
+              src="{{site.baseurl}}/assets/res/user.png"></a>
           <span class="white-text name">{{site.user}}</span>
           <span class="white-text email">{{site.user_email}}</span>
         </div>
@@ -61,7 +84,8 @@
 
       <li><a class="waves-effect" href="{{site.baseurl}}/"><i class="material-icons">home</i>Home</a></li>
       <!--   <li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="material-icons">description</i>Projects</a></li> -->
-      <li><a class="waves-effect" href="{{site.baseurl}}/categories"><i class="material-icons">sort</i>Categories</a></li>
+      <li><a class="waves-effect" href="{{site.baseurl}}/categories"><i class="material-icons">sort</i>Categories</a>
+      </li>
       <li><a class="waves-effect" href="{{site.baseurl}}/tags"><i class="material-icons">label</i>Tags</a></li>
 
     </ul>
