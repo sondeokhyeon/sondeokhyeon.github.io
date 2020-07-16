@@ -1,13 +1,15 @@
 ---
 layout: post
 title : security
-categories: Spring
+categories: Spring, spring-security
 tags: [Spring]
 comments : true
 ---
 
-스프링 시큐리트는 설정과 확장이 다양하기 때문에 학습하기 어렵지만 강력하고 유연한 보안 솔루션이기도 하다.
-기본적인 구조는 사용자의 인증(authentication)과 레벨에 권한(authoriztion)으로 이루어진다. 
+**spring security1** 
+
+스프링 시큐리트는 설정과 확장이 다양하기 때문에 학습하기 어렵지만 강력하고 유연한 보안 솔루션이기도 하다.  
+기본적인 구조는 사용자의 인증(authentication)과 레벨에 권한(authoriztion)으로 이루어진다.  
 URL에 요청에 따라 인증여부를 확인하고 로그인이 안되어있을 경우 로그인으로 이동한다.
 인증을 실패하면 401(권한없음)에러가 발생하고 인증이 성공하면 권한을 확인하고 권한이 없으면 403(forbidden)코드가 부여되고 
 권한까지 있는 경우 200 코드를 통해 정상적으로 응답할 것이다.
