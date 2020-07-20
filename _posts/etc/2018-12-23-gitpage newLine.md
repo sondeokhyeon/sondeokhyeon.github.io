@@ -1,7 +1,7 @@
 ---
 layout: post
 title : gitpage 미리보기 개행 
-categories: github
+categories: 기타
 comments: true
 tags: [기타]
 ---

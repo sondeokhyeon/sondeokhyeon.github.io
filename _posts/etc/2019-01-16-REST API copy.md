@@ -1,7 +1,7 @@
 ---
 layout: post
 title : HTTP-RestAPI
-categories: HTTP
+categories: 기타
 tags: [REST API]
 comments : true
 ---
