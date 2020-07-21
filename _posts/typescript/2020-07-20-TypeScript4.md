@@ -6,7 +6,7 @@ tags: [TypeScript]
 comments : true
 ---
 
-**타입스크립트3**
+**타입스크립트4**
 
 타입스크립트의 타입4
 
@@ -35,7 +35,15 @@ comments : true
     function void1() : void {
         console.log('이것이 보이드다아아아')
     }
-    // 리턴할 타입이 없다면 보이드로 타입지정이 가능하다
+    // 변수에는 undefined와 null만 할당하고 리턴할 타입이 없다면 보이드로 타입지정이 가능하다
 
+    // never 타입 
+    // 함수의 끝에 절대 도달하지 않는다는 의미를 지닌 타입
+
+    function neverEnd(): never {
+        while (true) {
+         ....   
+        }
+    }
 
 --- 
