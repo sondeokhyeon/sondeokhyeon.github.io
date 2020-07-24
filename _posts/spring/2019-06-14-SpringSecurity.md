@@ -1,8 +1,8 @@
 ---
 layout: post
 title : security
-categories: spring
-tags: [Spring-security]
+categories: Spring
+tags: [Spring]
 comments : true
 ---
 
