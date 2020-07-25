@@ -16,10 +16,10 @@
 title: TIL(Today I Learn) 블로그입니다.
 description: > # this means to ignore newlines until "baseurl:"
   Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
-baseurl: "/blog"  
+baseurl: ""
 url: "https://sondeokhyeon.github.io"
 permalink: /:year/:month/:day/:title
-repository: 'sondeokhyeon/blog'
+repository: "sondeokhyeon/blog"
 paginate: 5
 
 # MatJek specific configurations
