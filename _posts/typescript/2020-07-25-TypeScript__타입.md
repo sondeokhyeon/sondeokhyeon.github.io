@@ -1,12 +1,12 @@
 ---
 layout: post
-title : TypeScript 타입
+title : TypeScript Basic Types
 categories: TypeScript
 tags: [TypeScript]
 comments : true
 ---
 
-**타입스크립트3**
+**타입스크립트 타입**
 
 타입스크립트는 타입을 정적으로 고정하는 아래와 같이 선언하여 사용한다. 
 
@@ -15,7 +15,7 @@ comments : true
     // 이름은 isDone이고 타입은 boolean만 저장이 가능한데 할당한 값은 false이다. 
     // 즉 자바의 boolean isDone = false; 동일하다
 
-타입스크립트의 타입1
+타입스크립트의 Boolean, Number, String
 
     // Boolean
     let isDone : boolean = false; 
@@ -34,7 +34,7 @@ comments : true
     let fullName: string = `Bob Bobbington`;
     let sentence: string = `Hello, my name is ${fullName}.
 
-타입스크립트 타입2  
+타입스크립트 Array, Enum, 
 
     // Array
     let list: number[] = [1, 2, 3];
@@ -71,7 +71,7 @@ comments : true
     let n: null = null;
 
 
-타입스크립트의 타입3
+타입스크립트 Any, Unknown, void 
 
     // any 타입 
     // any 타입은 모든 타입을 할당할 수 있는 타입이다. 
